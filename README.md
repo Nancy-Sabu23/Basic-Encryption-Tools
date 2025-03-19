@@ -27,6 +27,7 @@ Open a text editor and create a file named index.html, then add the html code.
 -Text area for user input.
 -Number input for Caesar Cipher shift value.
 -Buttons to encrypt/decrypt using Caesar Cipher and Base64 encoding.
+
 ----
 
 🔹 Step 3: Style the Page (CSS)
