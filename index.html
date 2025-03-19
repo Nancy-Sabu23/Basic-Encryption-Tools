@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Encryption Tool</title>
+    <link rel="stylesheet" href="styleee.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Basic Encryption Tool</h2>
+        <textarea id="inputText" placeholder="Enter text..."></textarea>
+        
+        <label for="shift">Caesar Cipher Shift:</label>
+        <input type="number" id="shift" value="3">
+        <button onclick="encryptCaesar()">Encrypt (Caesar)</button>
+        <button onclick="decryptCaesar()">Decrypt (Caesar)</button>
+        
+        <button onclick="encodeBase64()">Encode (Base64)</button>
+        <button onclick="decodeBase64()">Decode (Base64)</button>
+        
+        <h3>Result:</h3>
+        <textarea id="outputText" readonly></textarea>
+    </div>
+
+    <script src="scripttt.js"></script>
+</body>
+</html>
